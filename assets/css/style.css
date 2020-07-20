@@ -468,7 +468,8 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-#home {
+#home { 
+	height: 100vh !important;
 	background: url(../images/home2.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
@@ -1077,6 +1078,15 @@ button.mfp-close {
 	margin: 0;
 	text-align: center;
 	top: 65%;
+}
+
+
+.fa-linkedin,
+.fa-github,
+.fa-readme {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
 }
 
 /* ---------------------------------------------- /*
